@@ -7,7 +7,7 @@ namespace DagboksApp
 {
     public class DiaryEntry
     {   //Lade till domänklass DiaryEntry med Date och Text
-        public DateTime Date { get; set; }
+        public DateTime Date { get; set; } //Lade till funktion för att söka anteckningar baserat på datum
         public string Text { get; set; }
 
         public override string ToString()
