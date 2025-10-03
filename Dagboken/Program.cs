@@ -24,7 +24,7 @@ namespace DagboksApp
 
         
         static void ShowMenu()
-        {
+        {   // meny funktion för att visa val
             Console.WriteLine("Välkommen till Dagboksappen");
             Console.WriteLine("1. Skriv en ny dagboksanteckning");
             Console.WriteLine("2. Visa alla dagboksanteckningar");
@@ -75,7 +75,7 @@ namespace DagboksApp
             }
         }
 
-        static void AddEntry()
+        static void AddEntry() //Lagt till metod AddEntry() som tar in användarens text
         {
             Console.WriteLine("Skriv din dagboksanteckning");
             string text = Console.ReadLine();
