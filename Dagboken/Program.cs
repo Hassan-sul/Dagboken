@@ -6,7 +6,7 @@ using System.Text.Json;
 namespace DagboksApp
 {
     public class DiaryEntry
-    {
+    {   //Lade till domänklass DiaryEntry med Date och Text
         public DateTime Date { get; set; }
         public string Text { get; set; }
 
