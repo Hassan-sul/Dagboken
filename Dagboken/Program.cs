@@ -17,7 +17,7 @@ namespace DagboksApp
     }
 
     internal class Program
-    {
+    {   //Införde Dictionary för snabbare uppslag av anteckningar efter datum
         static List<DiaryEntry> diaryEntries = new List<DiaryEntry>();
         static Dictionary<DateTime, DiaryEntry> diaryLookup = new Dictionary<DateTime, DiaryEntry>();
         const string filePath = "diary.json";
