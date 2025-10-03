@@ -38,7 +38,7 @@ namespace DagboksApp
         static void Main(string[] args)
         {
             LoadFromFile();
-
+            //Skapade menystruktur med while-loop och switch-case
             bool running = true;
             while (running)
             {
